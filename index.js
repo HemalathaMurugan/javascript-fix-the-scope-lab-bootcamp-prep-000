@@ -22,6 +22,7 @@ function add2(n) {
 }
 
 var funkyFunction = function() {
+<<<<<<< HEAD
     
     return function() {
     
@@ -31,6 +32,14 @@ var funkyFunction = function() {
   }
 var theFunk = funkyFunction()()
 
+=======
+    var theFunk = funkyFunction
+}
+    return function() {
+      return "FUNKY!"
+  }
+  
+>>>>>>> 86c7586b1d8ff0c1acf1d6e3e7090f93d4015818
 
   
  // var theFunk = funkyFunction
